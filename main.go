@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
+	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -74,41 +74,32 @@ func getCurrencyByCode(w http.ResponseWriter, r *http.Request) {
 
 	http.NotFound(w, r)
 }
-
 func getCurrencyFlagByCode(w http.ResponseWriter, r *http.Request) {
-	// Get currency code from request URL
-	params := mux.Vars(r)
-	code := strings.ToUpper(params["code"])
+	vars := mux.Vars(r)
+	code := vars["code"]
 
-	// Find currency with matching code
-	var currency Currency
 	for _, c := range currencies {
 		if c.Code == code {
-			currency = c
-			break
+			resp, err := http.Get(c.Flag)
+			if err != nil {
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				return
+			}
+			defer resp.Body.Close()
+
+			// Set the content type of the response to image/png
+			w.Header().Set("Content-Type", "image/png")
+
+			// Write the image data to the response writer
+			_, err = io.Copy(w, resp.Body)
+			if err != nil {
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				return
+			}
+
+			return
 		}
 	}
 
-	// Check if currency was found
-	if currency.Code == "" {
-		http.NotFound(w, r)
-		return
-	}
-
-	// Get image file
-	resp, err := http.Get(currency.Flag)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-	defer resp.Body.Close()
-
-	// Set response header
-	w.Header().Set("Content-Type", "image/png")
-
-	// Write image file to response
-	_, err = fmt.Fprint(w, resp.Body)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-	}
+	http.Error(w, "Currency not found", http.StatusNotFound)
 }

@@ -1,0 +1,21 @@
+---
+import siteInfo from '../data/site-info';
+
+const { title, navigation } = siteInfo;
+
+---
+
+<div>
+  <a href="/"><h1>{title}</h1></a>
+  <nav>
+    <ul>
+    {navigation.map((navItem) => (
+      <li>
+        <a href={navItem.path}>{navItem.title}</a>
+      </li>
+    ))}
+    </ul>
+  </nav>
+</div>
+
+<style></style>

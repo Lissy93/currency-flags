@@ -1,0 +1,32 @@
+---
+import RootLayout from '../layouts/RootLayout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import siteInfo from '../data/site-info';
+
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+const footerProps = siteInfo.footer;
+
+---
+
+<RootLayout title={title}>
+	<Nav />
+	<main>
+		<slot />
+	</main>
+	<Footer { ...footerProps } />
+</RootLayout>
+
+<style is:global>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 90ch;
+		background: var(--background-secondary);
+	}
+</style>
+

@@ -1,0 +1,19 @@
+---
+import RootLayout from '../layouts/RootLayout.astro';
+import Footer from '../components/Footer.astro';
+import siteInfo from '../data/site-info';
+
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+---
+
+<RootLayout title={title || 'Currency Flags'}>
+	<slot />
+	<Footer { ...siteInfo.footer } />
+</RootLayout>
+
+

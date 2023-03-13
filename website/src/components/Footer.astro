@@ -1,0 +1,42 @@
+---
+
+interface Link {
+  name: string;
+  link: string;
+}
+
+export interface Props {
+  project: Link;
+  license: Link;
+  author: Link;
+}
+
+const { project, license, author } = Astro.props;
+
+const year = new Date().getFullYear();
+---
+
+<footer>
+  <a href={project.link}>{project.name}</a>
+  is licensed under
+  <a href={license.link}>{license.name}</a>
+  - ©
+  <a href={author.link}>{author.name}</a>
+  {year}
+</footer>
+
+<style>
+  footer {
+    text-align: center;
+    color: var(--text);
+  }
+  a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  a:hover {
+    color: var(--secondary);
+  }
+</style>

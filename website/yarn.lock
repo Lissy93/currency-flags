@@ -2390,10 +2390,10 @@
   dependencies:
     "suf-log" "^2.5.3"
 
-"sass@*", "sass@^1.59.2":
-  "integrity" "sha512-jJyO6SmbzkJexF8MUorHx5tAilcgabioYxT/BHbY4+OvoqmbHxsYlrjZ8Adhqcgl6Zqwie0TgMXLCAmPFxXOuw=="
-  "resolved" "https://registry.npmjs.org/sass/-/sass-1.59.2.tgz"
-  "version" "1.59.2"
+"sass@*", "sass@^1.59.3":
+  "integrity" "sha512-QCq98N3hX1jfTCoUAsF3eyGuXLsY7BCnCEg9qAact94Yc21npG2/mVOqoDvE0fCbWDqiM4WlcJQla0gWG2YlxQ=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.59.3.tgz"
+  "version" "1.59.3"
   dependencies:
     "chokidar" ">=3.0.0 <4.0.0"
     "immutable" "^4.0.0"

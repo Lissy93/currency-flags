@@ -25,6 +25,7 @@ const { title, navigation, repo } = siteInfo;
     </ul>
   </nav>
 </div>
+<hr />
 
 <style lang="scss">
 .nav-bar {
@@ -32,7 +33,7 @@ const { title, navigation, repo } = siteInfo;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0.25rem auto 1.5rem auto;
+  margin: 0.25rem auto 1rem auto;
   a {
     text-decoration: none;
   }
@@ -86,5 +87,13 @@ const { title, navigation, repo } = siteInfo;
       }
     }
   }
+}
+hr {
+  background-image: var(--accent-gradient-2);
+  border-radius: var(--curve-factor);
+  border: none;
+  height: 0.15rem;
+  margin: 0;
+  opacity: 0.5;
 }
 </style>

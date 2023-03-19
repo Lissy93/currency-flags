@@ -24,11 +24,13 @@ const { title } = Astro.props;
 	:root {
 		--accent: 124, 58, 237;
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+		--accent-gradient-2: linear-gradient(45deg, rgb(var(--accent)) 50%, #da62c4 90%);
 		--background: #e9e9e9;
 		--background-secondary: #ffffff;
 		--foreground: #111;
 		--primary: rgb(124, 58, 237);
 		--secondary: #c158cf;
+		--curve-factor: 0.4rem;
 	}
   ::selection {
     background: var(--primary);

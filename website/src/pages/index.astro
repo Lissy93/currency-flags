@@ -1,6 +1,16 @@
 ---
+import yaml from 'yaml';
 import Layout from '../layouts/HomeLayout.astro';
 import Card from '../components/Card.astro';
+import siteInfo from '../data/site-info';
+
+const endpoint = 'https://raw.githubusercontent.com/Lissy93/currency-flags/feat/api/currencies.yaml';
+
+const currencies = await fetch(endpoint)
+	.then((res) => res.blob())
+	.then((blob) => blob.text())
+	.then((text) => yaml.parse(text));
+
 ---
 
 <Layout title="Currency Flags | Home">
@@ -16,26 +26,31 @@ import Card from '../components/Card.astro';
 			<strong><a href="https://github.com/lissy93/currency-flags">github.com/lissy93/currency-flags</a></strong><br>
 		</p>
 		<ul role="list" class="link-card-grid">
-			<Card
-				href="/api"
-				title="API"
-				body="Fetch currency info and associated flag icons via the REST API."
-			/>
-			<Card
-				href="/cdn"
-				title="CDN"
-				body="Directly embbed currency flag icons, sourced from an edge CDN."
-			/>
-			<Card
-				href="/css"
-				title="Stylesheet"
-				body="Use the NPM-installable stylesheet to render currency flag assets as CSS."
-			/>
-			<Card
-				href="#"
-				title="Flags"
-				body="View list of supported currencies"
-			/>
+			{siteInfo.navigation.map((navItem) => (
+				<Card
+					href={navItem.path}
+					title={navItem.title}
+					body={navItem.description}
+				/>
+			))}
+		</ul>
+		<hr />
+		<h2>Supported Currencies</h2>
+		<ul class="currencies">
+			{currencies.map((currency) => (
+				<li>
+					<img src={`https://raw.githubusercontent.com/Lissy93/currency-flags/master/src/flags/${currency.code}.svg`} alt={currency.code} />
+					{currency.name}
+				</li>
+				<li>
+					<img src={`https://raw.githubusercontent.com/Lissy93/currency-flags/master/src/flags/${currency.code}.svg`} alt={currency.code} />
+					{currency.name}
+				</li>
+				<li>
+					<img src={`https://raw.githubusercontent.com/Lissy93/currency-flags/master/src/flags/${currency.code}.svg`} alt={currency.code} />
+					{currency.name}
+				</li>
+			))}
 		</ul>
 	</main>
 </Layout>
@@ -55,7 +70,7 @@ import Card from '../components/Card.astro';
 		font-weight: 800;
 		margin: 0;
 	}
-	.text-gradient {
+	h1, h2 {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -86,5 +101,28 @@ import Card from '../components/Card.astro';
 		grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
 		gap: 1rem;
 		padding: 0;
+	}
+	hr {
+		background-image: var(--accent-gradient-2);
+		border-radius: var(--curve-factor);
+		border: none;
+		height: 0.15rem;
+	}
+	h2 {
+		color: rgb(var(--accent));
+		font-size: 2rem;
+	}
+	.currencies {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+		gap: 0.2rem;
+		padding: 0;
+	}
+	.currencies li {
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: var(--background-secondary);
+		padding: 1rem;
+		border-radius: 0.4rem;
 	}
 </style>

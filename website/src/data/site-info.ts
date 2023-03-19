@@ -58,6 +58,7 @@ const footer = {
 
 export default {
   ...basics,
+  repo,
   navigation,
   footer,
 };

@@ -1,0 +1,21 @@
+---
+export interface Props {
+  icon: string;
+  height?: string;
+  width?: string;
+}
+
+const { icon, height, width, ...attributes } = Astro.props as Props;
+const { default: innerHTML } = await import(`/src/assets/${icon}.svg?raw`);
+
+---
+
+<Fragment {...attributes} set:html={innerHTML} />
+
+<style define:vars={{ height, width }}>
+  :global(svg) {
+    height: var(--height, auto);
+    width: var(--width, 20px);
+    fill: currentcolor;
+  }
+</style>

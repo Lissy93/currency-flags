@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/HomeLayout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Currency Flags | Home">
+	<main>
+		<h1><span class="text-gradient">Currency Flags</span></h1>
+		<p class="instructions">
+			<i>
+				A collection of flag icons, associated with world currencies.
+				Consumable via a REST API, CDN, or NPM package.
+			</i>
+			<br><br>
+			View the source, at
+			<strong><a href="https://github.com/lissy93/currency-flags">github.com/lissy93/currency-flags</a></strong><br>
+		</p>
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="/api"
+				title="API"
+				body="Fetch currency info and associated flag icons via the REST API."
+			/>
+			<Card
+				href="/cdn"
+				title="CDN"
+				body="Directly embbed currency flag icons, sourced from an edge CDN."
+			/>
+			<Card
+				href="/css"
+				title="Stylesheet"
+				body="Use the NPM-installable stylesheet to render currency flag assets as CSS."
+			/>
+			<Card
+				href="#"
+				title="Flags"
+				body="View list of supported currencies"
+			/>
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	html, body {
+		background: #e9e9e9;
+	}
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 100ch;
+	}
+	h1 {
+		text-align: center;
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		line-height: 1.6;
+		margin: 1rem 0;
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: var(--background-secondary);
+		padding: 1rem;
+		border-radius: 0.4rem;
+	}
+	.instructions code {
+		font-size: 0.875em;
+		font-weight: bold;
+		background: rgba(var(--accent), 12%);
+		color: rgb(var(--accent));
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
+	}
+	.instructions strong, .instructions a {
+		color: rgb(var(--accent));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style>

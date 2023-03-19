@@ -1,0 +1,12 @@
+- name: British Pound
+  symbol: £
+  code: GBP
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/flags_png_rectangle/gbp.png
+- name: Euro
+  symbol: €
+  code: EUR
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/flags_png_rectangle/eur.png
+- name: US Dollar
+  symbol: $
+  code: USD
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/flags_png_rectangle/usd.png

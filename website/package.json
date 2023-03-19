@@ -10,9 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.18"
+    "astro": "^2.0.18",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
+    "@rollup/plugin-yaml": "^4.0.1",
     "sass": "^1.59.2"
   }
 }

@@ -39,10 +39,6 @@
   symbol: Əm
   code: AZN
   flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/azn.png
-- name: Bosnia and Herzegovina convertible mark
-  symbol: КМ
-  code: BAM
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bam.png
 - name: Barbadian dollar
   symbol: '$'
   code: BBD

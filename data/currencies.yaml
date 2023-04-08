@@ -2,608 +2,608 @@
 - name: Arabic dirham
   symbol: 'د.إ'
   code: AED
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/aed.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/aed.svg
 - name: Afghan afghani
   symbol: ؋
   code: AFN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/afn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/afn.svg
 - name: Albanian lek
   symbol: Lek
   code: ALL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/all.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/all.svg
 - name: Armenian dram
   symbol: ֏
   code: AMD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/amd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/amd.svg
 - name: Netherlands Antillean guilder
   symbol: NAƒ
   code: ANG
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ang.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ang.svg
 - name: Angolan kwanza
   symbol: Kz
   code: AOA
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/aoa.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/aoa.svg
 - name: Argentine peso
   symbol: '$'
   code: ARS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ars.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ars.svg
 - name: Australian dollar
   symbol: '$'
   code: AUD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/aud.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/aud.svg
 - name: Aruban florin
   symbol: ƒ
   code: AWG
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/awg.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/awg.svg
 - name: Azerbaijani manat
   symbol: Əm
   code: AZN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/azn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/azn.svg
 - name: Barbadian dollar
   symbol: '$'
   code: BBD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bbd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bbd.svg
 - name: Bangladeshi taka
   symbol: ৳
   code: BDT
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bdt.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bdt.svg
 - name: Bulgarian lev
   symbol: лв
   code: BGN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bgn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bgn.svg
 - name: Bahraini dinar
   symbol: .د.ب
   code: BHD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bhd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bhd.svg
 - name: Burundian franc
   symbol: Fr
   code: BIF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bif.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bif.svg
 - name: Bermudian dollar
   symbol: '$'
   code: BMD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bmd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bmd.svg
 - name: Brunei dollar
   symbol: '$'
   code: BND
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bnd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bnd.svg
 - name: Bolivian boliviano
   symbol: Bs.
   code: BOB
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bob.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bob.svg
 - name: Brazilian real
   symbol: R$
   code: BRL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/brl.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/brl.svg
 - name: Bahamian dollar
   symbol: '$'
   code: BSD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bsd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bsd.svg
 - name: Bhutanese ngultrum
   symbol: Nu.
   code: BTN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/btn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/btn.svg
 - name: Botswana pula
   symbol: P
   code: BWP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bwp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bwp.svg
 - name: Belarusian ruble
   symbol: p.
   code: BYN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/byn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/byn.svg
 - name: Belize dollar
   symbol: '$'
   code: BZD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/bzd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/bzd.svg
 - name: Canadian dollar
   symbol: '$'
   code: CAD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cad.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/cad.svg
 - name: Congolese franc
   symbol: Fr
   code: CDF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cdf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/cdf.svg
 - name: Swiss franc
   symbol: Fr
   code: CHF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/chf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/chf.svg
 - name: Chilean peso
   symbol: '$'
   code: CLP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/clp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/clp.svg
 - name: Chinese yuan
   symbol: ¥
   code: CNY
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cny.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/cny.svg
 - name: Colombian peso
   symbol: '$'
   code: COP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cop.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/cop.svg
 - name: Costa Rican colón
   symbol: ₡
   code: CRC
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/crc.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/crc.svg
 - name: Cuban peso
   symbol: '$'
   code: CUP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cup.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/cup.svg
 - name: Cape Verdean escudo
   symbol: '$'
   code: CVE
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cve.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/cve.svg
 - name: Czech koruna
   symbol: Kč
   code: CZK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/czk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/czk.svg
 - name: Djiboutian franc
   symbol: Fr
   code: DJF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/djf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/djf.svg
 - name: Danish krone
   symbol: kr
   code: DKK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/dkk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/dkk.svg
 - name: Dominican peso
   symbol: '$'
   code: DOP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/dop.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/dop.svg
 - name: Algerian dinar
   symbol: د.ج
   code: DZD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/dzd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/dzd.svg
 - name: Egyptian pound
   symbol: £
   code: EGP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/egp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/egp.svg
 - name: Eritrean nakfa
   symbol: Nfk
   code: ERN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ern.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ern.svg
 - name: Ethiopian birr
   symbol: Br
   code: ETB
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/etb.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/etb.svg
 - name: Euro
   symbol: €
   code: EUR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/eur.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/eur.svg
 - name: Fijian dollar
   symbol: '$'
   code: FJD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/fjd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/fjd.svg
 - name: Falkland Islands pound
   symbol: £
   code: FKP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/fkp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/fkp.svg
 - name: Pound sterling
   symbol: £
   code: GBP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gbp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gbp.svg
 - name: Georgian lari
   symbol: ₾
   code: GEL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gel.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gel.svg
 - name: Guernsey pound
   symbol: £
   code: GGP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ggp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ggp.svg
 - name: Ghanaian cedi
   symbol: ₵
   code: GHS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ghs.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ghs.svg
 - name: Gibraltar pound
   symbol: £
   code: GIP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gip.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gip.svg
 - name: Gambian dalasi
   symbol: D
   code: GMD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gmd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gmd.svg
 - name: Guinean franc
   symbol: Fr
   code: GNF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gnf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gnf.svg
 - name: Guatemalan quetzal
   symbol: Q
   code: GTQ
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gtq.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gtq.svg
 - name: Guyanese dollar
   symbol: '$'
   code: GYD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/gyd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/gyd.svg
 - name: Hong Kong dollar
   symbol: '$'
   code: HKD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/hkd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/hkd.svg
 - name: Honduran lempira
   symbol: L
   code: HNL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/hnl.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/hnl.svg
 - name: Croatian kuna
   symbol: kn
   code: HRK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/hrk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/hrk.svg
 - name: Haitian gourde
   symbol: G
   code: HTG
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/htg.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/htg.svg
 - name: Hungarian forint
   symbol: Ft
   code: HUF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/huf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/huf.svg
 - name: Indonesian rupiah
   symbol: Rp
   code: IDR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/idr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/idr.svg
 - name: Israeli new shekel
   symbol: ₪
   code: ILS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ils.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ils.svg
 - name: Manx pound
   symbol: £
   code: IMP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/imp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/imp.svg
 - name: Indian rupee
   symbol: ₹
   code: INR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/inr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/inr.svg
 - name: Iraqi dinar
   symbol: د.ع
   code: IQD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/iqd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/iqd.svg
 - name: Iranian rial
   symbol: ﷼
   code: IRR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/irr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/irr.svg
 - name: Icelandic króna
   symbol: kr
   code: ISK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/isk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/isk.svg
 - name: Jersey pound
   symbol: £
   code: JEP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/jep.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/jep.svg
 - name: Jamaican dollar
   symbol: '$'
   code: JMD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/jmd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/jmd.svg
 - name: Jordanian dinar
   symbol: د.ا
   code: JOD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/jod.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/jod.svg
 - name: Japanese yen
   symbol: ¥
   code: JPY
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/jpy.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/jpy.svg
 - name: Kenyan shilling
   symbol: KSh
   code: KES
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kes.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kes.svg
 - name: Kyrgyzstani som
   symbol: с
   code: KGS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kgs.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kgs.svg
 - name: Cambodian riel
   symbol: ៛
   code: KHR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/khr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/khr.svg
 - name: Comorian franc
   symbol: Fr
   code: KMF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kmf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kmf.svg
 - name: North Korean won
   symbol: ₩
   code: KPW
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kpw.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kpw.svg
 - name: South Korean won
   symbol: ₩
   code: KRW
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/krw.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/krw.svg
 - name: Kuwaiti dinar
   symbol: د.ك
   code: KWD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kwd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kwd.svg
 - name: Cayman Islands dollar
   symbol: '$'
   code: KYD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kyd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kyd.svg
 - name: Kazakhstani tenge
   symbol: ₸
   code: KZT
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/kzt.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/kzt.svg
 - name: Lao kip
   symbol: ₭
   code: LAK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/lak.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/lak.svg
 - name: Lebanese pound
   symbol: ل.ل
   code: LBP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/lbp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/lbp.svg
 - name: Sri Lankan rupee
   symbol: රු
   code: LKR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/lkr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/lkr.svg
 - name: Liberian dollar
   symbol: '$'
   code: LRD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/lrd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/lrd.svg
 - name: Lesotho loti
   symbol: L
   code: LSL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/lsl.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/lsl.svg
 - name: Libyan dinar
   symbol: ل.د
   code: LYD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/lyd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/lyd.svg
 - name: Moroccan dirham
   symbol: د.م.
   code: MAD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mad.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mad.svg
 - name: Moldovan leu
   symbol: L
   code: MDL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mdl.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mdl.svg
 - name: Malagasy ariary
   symbol: Ar
   code: MGA
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mga.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mga.svg
 - name: Macedonian denar
   symbol: ден
   code: MKD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mkd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mkd.svg
 - name: Myanmar kyat
   symbol: Ks
   code: MMK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mmk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mmk.svg
 - name: Mongolian tögrög
   symbol: ₮
   code: MNT
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mnt.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mnt.svg
 - name: Macanese pataca
   symbol: MOP$
   code: MOP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mop.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mop.svg
 - name: Mauritanian ouguiya
   symbol: UM
   code: MRO
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mro.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mro.svg
 - name: Mauritian rupee
   symbol: ₨
   code: MUR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mur.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mur.svg
 - name: Maldivian rufiyaa
   symbol: .ރ
   code: MVR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mvr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mvr.svg
 - name: Malawian kwacha
   symbol: MK
   code: MWK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mwk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mwk.svg
 - name: Mexican peso
   symbol: '$'
   code: MXN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mxn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mxn.svg
 - name: Malaysian ringgit
   symbol: RM
   code: MYR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/myr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/myr.svg
 - name: Mozambican metical
   symbol: MT
   code: MZN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/mzn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/mzn.svg
 - name: Namibian dollar
   symbol: '$'
   code: NAD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/nad.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/nad.svg
 - name: Nigerian naira
   symbol: ₦
   code: NGN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ngn.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ngn.svg
 - name: Nicaraguan córdoba
   symbol: C$
   code: NIO
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/nio.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/nio.svg
 - name: Norwegian krone
   symbol: kr
   code: NOK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/nok.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/nok.svg
 - name: Nepalese rupee
   symbol: रू
   code: NPR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/npr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/npr.svg
 - name: New Zealand dollar
   symbol: '$'
   code: NZD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/nzd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/nzd.svg
 - name: Omani rial
   symbol: ر.ع.
   code: OMR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/omr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/omr.svg
 - name: Panamanian balboa
   symbol: B/.
   code: PAB
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/pab.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/pab.svg
 - name: Peruvian nuevo sol
   symbol: S/.
   code: PEN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/pen.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/pen.svg
 - name: Papua New Guinean kina
   symbol: K
   code: PGK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/pgk.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/pgk.svg
 - name: Philippine peso
   symbol: ₱
   code: PHP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/php.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/php.svg
 - name: Pakistani rupee
   symbol: ₨
   code: PKR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/pkr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/pkr.svg
 - name: Polish złoty
   symbol: zł
   code: PLN
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/pln.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/pln.svg
 - name: Paraguayan guaraní
   symbol: ₲
   code: PYG
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/pyg.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/pyg.svg
 - name: Qatari riyal
   symbol: ر.ق
   code: QAR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/qar.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/qar.svg
 - name: Romanian leu
   symbol: lei
   code: RON
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ron.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ron.svg
 - name: Serbian dinar
   symbol: din.
   code: RSD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/rsd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/rsd.svg
 - name: Russian ruble
   symbol: ₽
   code: RUB
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/rub.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/rub.svg
 - name: Rwandan franc
   symbol: Fr
   code: RWF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/rwf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/rwf.svg
 - name: Saudi riyal
   symbol: ر.س
   code: SAR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sar.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/sar.svg
 - name: Solomon Islands dollar
   symbol: '$'
   code: SBD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sbd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/sbd.svg
 - name: Seychellois rupee
   symbol: '₨'
   code: SCR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/scr.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/scr.svg
 - name: Swedish krona
   symbol: kr
   code: SEK
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sek.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/sek.svg
 - name: Singapore dollar
   symbol: '$'
   code: SGD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sgd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/sgd.svg
 - name: Saint Helena pound
   symbol: £
   code: SHP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/shp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/shp.svg
 - name: Sierra Leonean leone
   symbol: Le
   code: SLL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sll.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/sll.svg
 - name: Somali shilling
   symbol: Sh
   code: SOS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sos.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/sos.svg
 - name: Surinamese dollar
   symbol: '$'
   code: SRD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/srd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/srd.svg
 - name: Syrian pound
   symbol: £
   code: SYP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/syp.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/syp.svg
 - name: Thai baht
   symbol: ฿
   code: THB
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/thb.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/thb.svg
 - name: Tajikistani somoni
   symbol: ЅМ
   code: TJS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/tjs.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/tjs.svg
 - name: Turkmenistani manat
   symbol: m
   code: TMT
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/tmt.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/tmt.svg
 - name: Tunisian dinar
   symbol: د.ت
   code: TND
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/tnd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/tnd.svg
 - name: Tongan paʻanga
   symbol: T$
   code: TOP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/top.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/top.svg
 - name: Turkish lira
   symbol: ₺
   code: TRY
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/try.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/try.svg
 - name: Trinidad and Tobago dollar
   symbol: '$'
   code: TTD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ttd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ttd.svg
 - name: New Taiwan dollar
   symbol: '$'
   code: TWD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/twd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/twd.svg
 - name: Tanzanian shilling
   symbol: Sh
   code: TZS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/tzs.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/tzs.svg
 - name: Ukrainian hryvnia
   symbol: ₴
   code: UAH
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/uah.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/uah.svg
 - name: Ugandan shilling
   symbol: Sh
   code: UGX
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ugx.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/ugx.svg
 - name: United States dollar
   symbol: '$'
   code: USD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/usd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/usd.svg
 - name: Uruguayan peso
   symbol: '$'
   code: UYU
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/uyu.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/uyu.svg
 - name: Uzbekistani som
   symbol: Ўзб
   code: UZS
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/uzs.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/uzs.svg
 - name: Venezuelan bolívar
   symbol: Bs
   code: VEF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/vef.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/vef.svg
 - name: Vietnamese đồng
   symbol: ₫
   code: VND
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/vnd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/vnd.svg
 - name: Vanuatu vatu
   symbol: Vt
   code: VUV
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/vuv.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/vuv.svg
 - name: Samoan tālā
   symbol: T
   code: WST
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/wst.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/wst.svg
 - name: Central African CFA franc
   symbol: Fr
   code: XAF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/xaf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/xaf.svg
 - name: East Caribbean dollar
   symbol: '$'
   code: XCD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/xcd.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/xcd.svg
 - name: West African CFA franc
   symbol: Fr
   code: XOF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/xof.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/xof.svg
 - name: CFP franc
   symbol: Fr
   code: XPF
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/xpf.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/xpf.svg
 - name: Yemeni rial
   symbol: ﷼
   code: YER
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/yer.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/yer.svg
 - name: South African rand
   symbol: R
   code: ZAR
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/zar.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/zar.svg
 - name: Zambian kwacha
   symbol: ZK
   code: ZMW
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/zmw.png
+  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_svg/zmw.svg

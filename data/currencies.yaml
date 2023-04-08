@@ -127,10 +127,6 @@
   symbol: ₡
   code: CRC
   flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/crc.png
-- name: Cuban convertible peso
-  symbol: '$'
-  code: CUC
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/cuc.png
 - name: Cuban peso
   symbol: '$'
   code: CUP
@@ -487,10 +483,6 @@
   symbol: '₨'
   code: SCR
   flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/scr.png
-- name: Sudanese pound
-  symbol: £
-  code: SDG
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/sdg.png
 - name: Swedish krona
   symbol: kr
   code: SEK
@@ -515,10 +507,6 @@
   symbol: '$'
   code: SRD
   flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/srd.png
-- name: South Sudanese pound
-  symbol: £
-  code: SSP
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ssp.png
 - name: Syrian pound
   symbol: £
   code: SYP
@@ -551,10 +539,6 @@
   symbol: '$'
   code: TTD
   flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/ttd.png
-- name: Tuvaluan dollar
-  symbol: '$'
-  code: TVD
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/tvd.png
 - name: New Taiwan dollar
   symbol: '$'
   code: TWD
@@ -627,7 +611,3 @@
   symbol: ZK
   code: ZMW
   flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/zmw.png
-- name: Zimbabwean dollar
-  symbol: '$'
-  code: ZWL
-  flag: https://raw.githubusercontent.com/Lissy93/currency-flags/master/assets/flags_png_rectangle/zwl.png

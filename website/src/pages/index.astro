@@ -2,7 +2,9 @@
 import yaml from 'yaml';
 import Layout from '../layouts/HomeLayout.astro';
 import Card from '../components/Card.astro';
+import CurrencyTile from '../components/CurrencyTile.astro';
 import siteInfo from '../data/site-info';
+import type { Currency } from '../types/Currency';
 
 const endpoint = 'https://raw.githubusercontent.com/Lissy93/currency-flags/master/data/currencies.yaml';
 
@@ -13,6 +15,24 @@ const currencies = await fetch(endpoint)
 
 ---
 
+<script>
+// Rudimentary live filter search
+const filterInput = document.querySelector('.filter');
+const listItems = document.querySelectorAll('.tile');
+filterInput?.addEventListener('input', (e) => {
+	const searchTerm = e.target.value.toLowerCase();
+	listItems.forEach(item => {
+		const itemName = item.textContent || item.innerText;
+		if (itemName.toLowerCase().indexOf(searchTerm) > -1) {
+			item.style.display = '';
+		} else {
+			item.style.display = 'none';
+		}
+	});
+});
+
+</script>
+
 <Layout title="Currency Flags | Home">
 	<main>
 		<h1><span class="text-gradient">Currency Flags</span></h1>
@@ -21,8 +41,8 @@ const currencies = await fetch(endpoint)
 				A collection of flag icons, associated with world currencies.
 				Consumable via a REST API, CDN, or NPM package.
 			</i>
-			<br><br>
-			View the source, at
+			<br>
+			View the source, submit changes, or raise an issue at
 			<strong><a href="https://github.com/lissy93/currency-flags">github.com/lissy93/currency-flags</a></strong><br>
 		</p>
 		<ul role="list" class="link-card-grid">
@@ -34,40 +54,14 @@ const currencies = await fetch(endpoint)
 				/>
 			))}
 		</ul>
-		<hr />
-		<h2>Supported Currencies</h2>
+		<hr  id="supported-currencies" />
+		<div class="currency-title-wrap">
+			<h2>Supported Currencies</h2>
+			<input type="text" placeholder="Search..." class="filter" />
+		</div>
 		<ul class="currencies">
-			{currencies.map((currency) => (
-				<li>
-					<img src={currency.flag} alt={currency.code} />
-					<div class="info">
-						<h4>{currency.name}</h4>
-						<p>
-							<span>{currency.symbol}</span>
-							<span>({currency.code})</span>
-						</p>
-					</div>
-				</li>
-				<li>
-					<img src={currency.flag} alt={currency.code} />
-					<div class="info">
-						<h4>{currency.name}</h4>
-						<p>
-							<span>{currency.symbol}</span>
-							<span>({currency.code})</span>
-						</p>
-					</div>
-				</li>
-				<li>
-					<img src={currency.flag} alt={currency.code} />
-					<div class="info">
-						<h4>{currency.name}</h4>
-						<p>
-							<span>{currency.symbol}</span>
-							<span>({currency.code})</span>
-						</p>
-					</div>
-				</li>
+			{currencies.map((currency: Currency) => (
+				<CurrencyTile { ...currency } />
 			))}
 		</ul>
 	</main>
@@ -126,9 +120,26 @@ const currencies = await fetch(endpoint)
 		border: none;
 		height: 0.15rem;
 	}
+	.currency-title-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
 	h2 {
 		color: rgb(var(--accent));
 		font-size: 2rem;
+		margin: 0.75rem 0;;
+	}
+	.filter {
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: var(--background-secondary);
+		padding: 0.5rem;
+		border-radius: var(--curve-factor);
+		&:focus {
+			outline: none;
+			border: 2px solid rgb(var(--accent));
+		}
 	}
 	.currencies {
 		list-style: none;
@@ -136,27 +147,5 @@ const currencies = await fetch(endpoint)
 		grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
 		gap: 0.2rem;
 		padding: 0;
-		li {
-			border: 1px solid rgba(var(--accent), 25%);
-			background-color: var(--background-secondary);
-			box-shadow: 0 2px 4px -1px rgba(0,0,0,0.05),0 2px 4px -2px rgba(0,0,0,0.1);
-			border-radius: 0.4rem;
-			display: flex;
-			gap: 0.5rem;
-			overflow: hidden;
-			.info {
-				display: flex;
-				flex-direction: column;
-				h4 {
-					margin: 0;
-				}
-				p {
-					margin: 0;
-					font-size: 0.8rem;
-					opacity: 0.7;
-					font-style: italic;
-				}
-			}
-		}
 	}
 </style>

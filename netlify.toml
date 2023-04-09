@@ -1,0 +1,4 @@
+[build]
+  base = "/"
+  publish = "website/dist/"
+  command = "cd website && yarn build"

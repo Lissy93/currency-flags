@@ -1,0 +1,63 @@
+---
+import type { Currency } from '../types/Currency';
+
+const { code, flag, name, symbol, emoji } = (Astro.props as Currency);
+
+---
+
+<li class="tile"
+  title={`Country: ${name}\nFlag: ${emoji}\nSymbol: ${symbol}\nCode: ${code}\nSupported: ✅`}>
+  <img src={flag} alt={code} />
+  <div class="info">
+    <h4>{name}</h4>
+    <p>
+      <span class="symbol">{symbol}</span>
+      <span class="iso-code">({code})</span>
+    </p>
+  </div>
+</li>
+
+
+<style lang="scss">
+li {
+  border: 1px solid rgba(var(--accent), 25%);
+  background-color: var(--background-secondary);
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.05),0 2px 4px -2px rgba(0,0,0,0.1);
+  border-radius: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  overflow: hidden;
+  img {
+    width: 5rem;
+    background: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      margin: 0;
+      word-break: break-word;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      overflow: hidden;
+    }
+    p {
+      margin: 0;
+      font-size: 0.8rem;
+      opacity: 0.7;
+      font-style: italic;
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+}
+</style>

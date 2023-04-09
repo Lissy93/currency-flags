@@ -1,7 +1,7 @@
 ---
-title: Hello, World
+title: API Docs
 layout: ../layouts/DocPageLayout.astro
 ---
 
 ## API
-hi
+// TODO: add API docs

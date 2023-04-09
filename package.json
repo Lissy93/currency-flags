@@ -1,0 +1,25 @@
+{
+  "name": "currency-flags",
+  "version": "0.1.0",
+  "description": "Flags for currency codes.",
+  "files": [
+    "css/currency-flags.css",
+    "css/currency-flags.min.css",
+    "assets/flags_png_rectangle/*.png",
+    "assets/flags_svg_square/*.svg"
+  ],
+  "scripts": {
+    "start": "cd website && yarn start",
+    "dev": "cd website && yarn dev",
+    "build-api": "cd api && make build",
+    "start-api": "./api/bin/currency-flags",
+    "generate-css": "python lib/generate-stylesheet.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lissy93/currency-flags.git"
+  },
+  "author": "lissy93",
+  "license": "MIT",
+  "devDependencies": {}
+}

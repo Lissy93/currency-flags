@@ -46,7 +46,7 @@ def __main__():
           
       except yaml.YAMLError as exc:
           print(exc)
-          o Astro
+
   # Write generated CSS to file
   with open("../css/currency-flags.css", "w") as file:
       file.write(stylesheet_content)

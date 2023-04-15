@@ -7,6 +7,7 @@ const basics = {
   description:
     `A collection of flag icons, associated with world currencies.
     Consumable via a REST API, CDN, or NPM package.`,
+  baseUrl: 'https://currency-flags.as93.net',
 };
 
 const repoInfo = {

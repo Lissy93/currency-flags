@@ -1,9 +1,12 @@
 ---
+import siteInfo from '../data/site-info';
+
 export interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
+const url = siteInfo.baseUrl || 'https://lissy93.github.io/currency-flags';
 
 ---
 
@@ -15,6 +18,7 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title || 'Currency Flags'}</title>
+		<script defer data-domain={url} src="https://no-track.as93.net/js/script.js"></script>
 	</head>
 	<body>
 		<slot />
